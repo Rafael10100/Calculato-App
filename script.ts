@@ -67,7 +67,7 @@ document.getElementById('buttons')!.addEventListener('click', (event) => {
     if (target.classList.contains('number')) {
         calculator.appendNumber(target.innerText);
     } else if (target.classList.contains('operator')) {
-        calculator.chooseOperator(target.innerText as Operator);
+        calculator.chooseOperator(target.innerText as Operqator);
     } else if (target.classList.contains('equals')) {
         calculator.compute();
     } else if (target.classList.contains('clear')) {
